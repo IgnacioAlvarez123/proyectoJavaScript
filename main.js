@@ -13,7 +13,7 @@ function hamburguesas(selector){
 let selector
 
 while(selector != "ESC"){
-selector = (prompt("Ingrese la opcion '1' si quiere una hamburguesa simple. '2' Si quiere una hamburguesa doble. '3' si quiere una hamburguesa triple."));
+selector = (prompt("Ingrese la opcion '1' si quiere una hamburguesa simple. '2' Si quiere una hamburguesa doble. '3' si quiere una hamburguesa triple. Para salir de este menú escriba 'ESC'"));
 if (selector != "ESC"){
 alert(hamburguesas(selector))
 }
